@@ -9,6 +9,6 @@ Route::get('/create', [BukuController::class, 'create']);
 
 Route::get('/edit/{id}', [BukuController::class, 'edit']);
 
-
+ 
 
 Route::resource('books', BukuController::class);
